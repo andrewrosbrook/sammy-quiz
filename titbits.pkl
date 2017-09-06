@@ -1,0 +1,11 @@
+(dp0
+I1
+S'An easy warm up!'
+p1
+sI2
+S'Very clever! Last question..'
+p2
+sI3
+S'I knew it!!'
+p3
+s.

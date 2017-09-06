@@ -1,0 +1,11 @@
+(dp0
+I1
+S'H2O is water and H2O2 is hydrogen peroxide. What is H2O4?'
+p1
+sI2
+S'What is 10 + 10?'
+p2
+sI3
+S'Python or R?'
+p3
+s.
