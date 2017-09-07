@@ -10,7 +10,7 @@ def load_pkl(fn):
 
 def check_answer(num, ans):
         expected = answers[num]
-        actual = md5.new(ans).hexdigest()
+        actual = md5.new(ans.lower()).hexdigest()
 	if actual == expected:
 		print "Correct! " + titbits[num]
 		print
@@ -29,9 +29,8 @@ def demotivate():
 	print "\t" + demotivate_messages[idx]
 
 demotivate_messages = [ "Oh Sammy Sammy Sammy", "I'm sure Ahmmad could answer this one...", "Should we ask Sourav?",
-"The first stop towards failure is trying", 
-"If at first you don't succeed, give up and try something else",
-"Optimism, the prelude to disappointment" ]
+"The first stop towards failure is trying" 
+]
 
 questions = load_pkl("questions.pkl")
 answers = load_pkl("answers.pkl")
@@ -53,9 +52,6 @@ Hello Sammy!
 Many congratulations on the Wedding! Giving you a card with a voucher would be a little too easy...you have to do a bit of work first!
 
 You are required to answer a series of questions, for the chance to win an Amazon Gift Card :-)!
-
-There is only one IMPORTANT rule to remember:
-	All answers must be lower case
 
 Good Luck!
 
